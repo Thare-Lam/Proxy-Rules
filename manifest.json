@@ -1,8 +1,8 @@
 {
   "repository": "Thare-Lam/Proxy-Rules",
   "files": {
-    "Shadowrocket.conf": "53108e3d0d87cd74f837c3f404d2374d737b0391b0718d52165fda64bce32997",
-    "OpenClash.yaml": "53477d8d675c78b76e50203ad54b5623617d53147a097aafe689d077c67f3629"
+    "Shadowrocket.conf": "7d9a375a19afd53ee4e8b923fa95dbaf5f4352c0163dee70cf7276736b01b920",
+    "OpenClash.yaml": "b94269c616b527080cef12481bf9e2cf92f2bf180118df2f8248b78742c18ab5"
   },
   "rulesets": 22
 }
