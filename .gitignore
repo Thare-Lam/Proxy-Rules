@@ -1,2 +1,6 @@
 .DS_Store
 DB/
+
+dist/
+__pycache__/
+release-output/

@@ -1,0 +1,49 @@
+name: Build client configurations
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '23 19 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: publish-client-configurations
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test converter
+        run: python3 -m unittest discover -s tests
+      - name: Build both clients
+        env:
+          TARGET_REPOSITORY: ${{ github.repository }}
+        run: python3 scripts/build.py --repository "$TARGET_REPOSITORY"
+      - name: Publish both configurations in one commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if git ls-remote --exit-code --heads origin release >/dev/null; then
+            git fetch origin release
+            git worktree add release-output FETCH_HEAD
+          else
+            git worktree add --detach release-output HEAD
+            cd release-output
+            git checkout --orphan release
+            git rm -rf .
+            cd ..
+          fi
+          cp -R dist/. release-output/
+          cp LICENSE release-output/LICENSE
+          cd release-output
+          git add .
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Generate Shadowrocket and OpenClash configurations'
+          git push origin HEAD:release
