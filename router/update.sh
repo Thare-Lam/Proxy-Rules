@@ -13,7 +13,7 @@ case "$profile" in *[!a-zA-Z0-9_.-]*|'') exit 2;; esac
 runtime="/etc/openclash/$profile"
 next=$(mktemp -d "$base/.update.XXXXXX")
 trap 'rm -r "$next"' EXIT
-curl -q -fsSL --connect-timeout 10 --max-time 90 --max-filesize 20000000 \
+curl -q -fsSL --retry 2 --retry-delay 3 --connect-timeout 10 --max-time 45 --max-filesize 20000000 \
   "https://raw.githubusercontent.com/$repository/release/OpenClash.yaml" > "$next/overlay.yaml"
 if cmp -s "$next/overlay.yaml" "$base/overlay.yaml"; then exit 0; fi
 cp "$runtime" "$next/candidate.yaml"
