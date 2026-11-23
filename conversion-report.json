@@ -1,0 +1,592 @@
+[
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/Google.list",
+    "rule": "USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/Google.list",
+    "rule": "USER-AGENT,*com.google.Drive*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/Google.list",
+    "rule": "USER-AGENT,Google.Drive*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/YouTube/YouTube.list",
+    "rule": "USER-AGENT,*YouTubeMusic*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/YouTube/YouTube.list",
+    "rule": "USER-AGENT,*com.google.ios.youtubemusic*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/YouTube/YouTube.list",
+    "rule": "USER-AGENT,*youtube*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/YouTube/YouTube.list",
+    "rule": "USER-AGENT,YouTube*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/YouTube/YouTube.list",
+    "rule": "USER-AGENT,YouTubeMusic*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/YouTube/YouTube.list",
+    "rule": "USER-AGENT,com.google.ios.youtube*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/YouTube/YouTube.list",
+    "rule": "USER-AGENT,com.google.ios.youtubemusic*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BiliBili/BiliBili.list",
+    "rule": "USER-AGENT,*bili*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BiliBili/BiliBili.list",
+    "rule": "USER-AGENT,Bilibili*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BiliBili/BiliBili.list",
+    "rule": "USER-AGENT,bili*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BiliBili/BiliBili.list",
+    "rule": "USER-AGENT,bili-inter*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Microsoft/Microsoft.list",
+    "rule": "USER-AGENT,Microsoft*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Microsoft/Microsoft.list",
+    "rule": "USER-AGENT,OneDrive*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Microsoft/Microsoft.list",
+    "rule": "USER-AGENT,OneDriveiOSApp*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/HK_Banks_Direct.list",
+    "rule": "URL-REGEX,^https?://www\\.sc\\.com/hk/",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/Apple.list",
+    "rule": "USER-AGENT,*FindMyiPhone?",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/Apple.list",
+    "rule": "USER-AGENT,*Music?",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/Apple.list",
+    "rule": "USER-AGENT,*WeatherFoundation*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/Apple.list",
+    "rule": "USER-AGENT,*com.apple.Maps?",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/Apple.list",
+    "rule": "USER-AGENT,*com.apple.mobileme.fmip1",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/Apple.list",
+    "rule": "USER-AGENT,FMDClient*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/Apple.list",
+    "rule": "USER-AGENT,FMFD*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/Apple.list",
+    "rule": "USER-AGENT,FindMyFriends*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/Apple.list",
+    "rule": "USER-AGENT,FindMyiPhone*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/Apple.list",
+    "rule": "USER-AGENT,Maps*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/Apple.list",
+    "rule": "USER-AGENT,Wallet*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/Apple.list",
+    "rule": "USER-AGENT,com.apple.Maps",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/Apple.list",
+    "rule": "USER-AGENT,com.apple.appstored*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/Apple.list",
+    "rule": "USER-AGENT,fmflocatord*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/Apple.list",
+    "rule": "USER-AGENT,geod*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/Apple.list",
+    "rule": "USER-AGENT,locationd*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/Apple.list",
+    "rule": "USER-AGENT,passd*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/Apple.list",
+    "rule": "USER-AGENT,Music*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/Apple.list",
+    "rule": "USER-AGENT,AppleNews*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/Apple.list",
+    "rule": "USER-AGENT,com.apple.news*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/Apple.list",
+    "rule": "USER-AGENT,com.apple.trustd*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/Apple.list",
+    "rule": "USER-AGENT,AppleTV*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/refs/heads/main/Apple.list",
+    "rule": "USER-AGENT,com.apple.tv*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,%E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,%E4%BC%98%E9%85%B7*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,%E5%8D%B3%E5%88%BB*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,*Vainglory*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,AdBlock*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,Best%20Trace*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,MegaWerewolf*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,MicroMessenger%20Client",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,MicroMessenger*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,MicroMessengerClient*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,Microsoft*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,Moke*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,NeteaseMusic*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,QQ*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,RemotePlay*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,TIM*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,TeamViewer*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,WeChat*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,WebTorrent*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,YYeTs*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,arrowio*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,balls*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,cmb*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,cmblife*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,eusoft_ting_en_iphone",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,hearthstone*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,hide*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list",
+    "rule": "USER-AGENT,ting_en",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,AbemaTV*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,All4*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,Anime*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,Argo*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,BBCiPlayer*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,DAZN*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,Deezer*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,Disney+*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,FOX%20NOW*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,HBO%20GO%20PROD%20HKG*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,HBO%20NOW*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,HWTVMobile*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,ITV_Player*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,InstantVideo.US*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,JOOX*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,KKTV*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,LINE%20TV*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,My5*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,Niconico*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,PBS*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,Pandora*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,Prime%20Video*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,SoundCloud*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,Spotify*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,TIDAL*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,TaiwanGood*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,TikTok*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,TwDramas",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,Viu*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,ViuTV*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,WeMusic*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,YouTube*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,YouTubeMusic*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,com.google.ios.youtube*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,com.google.ios.youtubemusic*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,com.kktv.ios.kktv*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,encoreTVB*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,mytv*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,Duolingo*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,OneDrive*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,PayPal*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,Roam*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,WhatsApp*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,battleroyale*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,com.apple.trustd*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Global/Global.list",
+    "rule": "USER-AGENT,hearthstone*",
+    "reason": "Shadowrocket HTTP matching has no Mihomo routing equivalent"
+  }
+]
